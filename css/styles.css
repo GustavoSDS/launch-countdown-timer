@@ -112,7 +112,7 @@ main {
         filter: blur(0.5px);
         transform: perspective(600px) rotateX(0deg);
         transform-origin: center;
-        
+
 
         &::before,
         &::after {
@@ -180,6 +180,17 @@ footer {
       }
     }
   }
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
 }
 
 @media screen and (min-width: 768px) {
